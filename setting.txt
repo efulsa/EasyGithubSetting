@@ -1,0 +1,12 @@
+git config --global user.name "yourname"
+
+git config --global user.email "youremail@gmail.com"
+
+git config --global core.autocrlf input
+
+ssh-keygen -t rsa -b 4096 -C "youremail@gmail.com"
+
+
+search ssh folder and open id_rsh.pub than copy, look at pic 1.png
+
+open setting in github and choice "SSH and GPG keys", than paste in "Key". look at pic 2.png
